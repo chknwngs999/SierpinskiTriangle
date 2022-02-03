@@ -162,18 +162,27 @@ public void keyReleased(){
   
   if (key == 'r')
     rup = false;
-  else if (key == 't')
+  if (key == 't')
     rdown = false;
   
   if (key == 'g')
     gup = false;
-  else if (key == 'h')
+  if (key == 'h')
     gdown = false;
     
   if (key == 'b')
     bup = false;
-  else if (key == 'n')
+  if (key == 'n')
     bdown = false;
+    
+  if (key == 'w'){
+    if (opacity > 1)
+      opacity--;
+  }
+  if (key == 's'){
+    if (opacity < 255)
+      opacity++;
+  }
 }
 
 void mouseWheel(MouseEvent event) {

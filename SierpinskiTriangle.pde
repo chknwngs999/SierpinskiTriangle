@@ -105,7 +105,7 @@ public void draw()
     
   rotation += rerotation;
   
-  stroke(0);
+  stroke(r, g, b);
   fill(r, g, b);
   
   translate(width/2, height/2);

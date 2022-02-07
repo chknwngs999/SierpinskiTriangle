@@ -1,7 +1,7 @@
 int myMouseX, myMouseY;
 int sizing, rotation;
 float resize, rerotation;
-int len;
+int len = 320;
 int x, y, opacity;
 int r, g, b;
 boolean rup, rdown, gup, gdown, bup, bdown;
